@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+       
+
+    </head>
+    <body>
+        
+        <div>
+             <h1>Generate a</h1>
+             <h2>random password</h2>
+             <h3>Never use an insecure password again.<h3>
+             <input type="number" id="password-length" placeholder="Enter password length" min=0 max=15></input>
+             <button onclick="generatePassword()">Generate Password</button>
+             <hr></hr>
+        <div class="password">
+            <p id="password-One"></p>
+            <p id="password-Two"></p>
+            <button onclick="clearPassword()" class="clrPassword">Clear Password</button>
+        </div>
+        <div class="password">
+        <button onclick="copyPasswordOne()" class="cpyPassword">Copy Password One</button>
+        <button onclick="copyPasswordTwo()" class="cpyPassword">Copy Password Two</button>
+        </div>
+        
+        </div>
+        <script src="index.js"></script>
+       
+
+    </body>
+</html>
